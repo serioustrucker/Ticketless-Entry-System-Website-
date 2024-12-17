@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    padding: 0px 100px 0px 100px;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 175px;
+}
+
+.Searchbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+
+.searchIcon{
+    width: 30px;
+}
+
+.searchBar{
+    padding: 10px 400px 10px 10px;
+    border-radius: 50px;
+    
+}
+
+.select{
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+
+.icon{
+    width: 40px;
+}
+
+.nav{
+    width: 100%;
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+
+.left{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right{
+    width: 17%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.black{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    font-size: medium;
+}
+
+.white{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    font-size: medium;
+}
+
+.main{
+    width: 100%;
+
+}
+
+.mapdiv{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: black;
+}
+
+.map{
+    width: 90%;
+    height: 70vh;
+    padding: 20px;
+}
+
+.addBar{
+    width: 100%;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.animation{
+    display: grid;
+    place-items: center;
+}
+
+.container-img{
+    width: 85%;
+    height: 700px;
+    border-radius: 1rem;
+    box-shadow: black;
+    background-size: cover;
+    background-image: url("animation1.avif");
+    background-repeat: no-repeat;
+    animation: gallery 40s linear infinite;
+}
+
+@keyframes gallery{
+    10%{
+        background-image: url("./Assets/animation1.avif");
+    }
+
+    20%{
+        background-image: url("./Assets/animation2.avif");
+    }
+
+    30%{
+        background-image: url("./Assets/animation3.avif");
+    }
+
+    40%{
+        background-image: url("./Assets/animation4.avif");
+    }
+
+    50%{
+        background-image: url("./Assets/animation5.avif");
+    }
+
+    60%{
+        background-image: url("./Assets/animation6.avif");
+    }
+
+    70%{
+        background-image: url("./Assets/animation7.avif");
+    }
+
+    80%{
+        background-image: url("./Assets/animation8.avif");
+    }
+
+    90%{
+        background-image: url("./Assets/animation9.avif");
+    }
+
+    100%{
+        background-image: url("./Assets/animation10.avif");
+    }
+}
+
+
+h1{
+    text-shadow: 1px 1px 2px black;
+}
+
+.sectiondiv{
+    width: 100%;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    justify-content:space-around;
+    gap: 10px;
+}
+
+
+small{
+    color: gray;
+}
+
+.footer{
+    width: 100%;
+    padding: 0px 100px 0px 100px;
+}
+
+.parent{
+    width: 100%;
+    height: 20vh;
+    display: grid;
+    align-items: center;
+    background-color: black;   
+}
+.{
+    opacity: self;
+}
+
