@@ -1,136 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- coding by @_.codedevotee -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monumento.com</title>
+    <title>Login Register form</title>
+
+    <!--Boxicons CDN-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+
+    <!--Custom CSS-->
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <header class="header">
-        <div>
-            <a href="./index.html"><img class="logo" src="./Assets/Monumento.png" alt="LOGO"></a>
-        </div>
-        <div class="Searchbar">
-            <div>
-                <img class="searchIcon" src="./Assets/search.png" alt="searchLogo">
-            </div>
-            <div>
-                <input class="searchBar" type="text" placeholder="Search for Monument,.....">
-            </div>
-        </div>
-        <div>
-            <b>District:</b>
-            <select class="select" name="District">
-                <option value="select">select</option>
-                <option value="Ahmednagar">Ahmednagar</option>
-                <option value="Akola">Akola</option>
-                <option value="Amravati">Amravati</option>
-                <option value="Aurangabad">Aurangabad</option>
-                <option value="Beed">Beed</option>
-                <option value="Bhandara">Bhandara</option>
-                <option value="Buldhana">Buldhana</option>
-                <option value="Chandrapur">Chandrapur</option>
-                <option value="Dhule">Dhule</option>
-                <option value="Gadchiroli">Gadchiroli</option>
-                <option value="Gondia">Gondia</option>
-                <option value="Hingoli">Hingoli</option>
-                <option value="Jalgaon">Jalgaon</option>
-                <option value="Jalna">Jalna</option>
-                <option value="Kolhapur">Kolhapur</option>
-                <option value="Latur">Latur</option>
-                <option value="Mumbai City">Mumbai City</option>
-                <option value="Mumbai Suburban">Mumbai Suburban</option>
-                <option value="Nagpur">Nagpur</option>
-                <option value="Nanded">Naned</option>
-                <option value="Nandurbar">Nandurbar</option>
-                <option value="Nashik">Nashik</option>
-                <option value="Osmanabad">Osmanabad</option>
-                <option value="Palghar">Palghar</option>
-                <option value="Pune">Pune</option>
-                <option value="Raigad">Raigad</option>
-                <option value="Ratnagiri">Ratnagiri</option>
-                <option value="Sangli">Sangli</option>
-                <option value="Satara">Satara</option>
-                <option value="Sindhudurg">Sindhudurg</option>
-                <option value="Solapur">Solapur</option>
-                <option value="Thane">Thane</option>
-                <option value="Wardha">Wardha</option>
-                <option value="Washim">Washim</option>
-                <option value="Yavatmal">Yavatmal</option>
-            </select>
-        </div>
-        <div class="Login">
-            <div>
-                <img class="icon" src="./Assets/icon.jpeg" alt="icon">
-            </div>
-            <div>
-                <a class="black" href=""><strong>Hi, Guest</strong></a>
-            </div>   
-        </div>
-    </header>
-        <div class="nav">
-            <div class="navbar">
-                <div class="left">
-                    <a class="white" style="padding-left: 20px;" href="file:///C:/Users/Soham/OneDrive/Desktop/Monument%20Ticketing%20Website/Loader.html"><strong>Monuments</strong></a>
-                    <a class="white" href=""><strong>Forts</strong></a>
-                    <a class="white" href=""><strong>Sanctuaries</strong></a>
-                    <a class="white" href=""><strong>Temples</strong></a>
-                    <a class="white" href=""><strong>Palaces</strong></a>
-                    <a class="white" href=""><strong>Caves</strong></a>
-                    <a class="white" href=""><strong>Museums</strong></a>
+    <!-- FOR SOURCE CODE COMMENT "CODE" -->
+
+    <div class="wrapper">
+        <span class="rotate-bg"></span>
+        <span class="rotate-bg2"></span>
+
+        <div class="form-box login">
+            <h2 class="title animation" style="--i:0; --j:21">Login</h2>
+            <form action="#">
+
+                <div class="input-box animation" style="--i:1; --j:22">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                    <i class='bx bxs-user'></i>
                 </div>
-                <div class="right">
-                    <a class="white" href=""><strong>Maps</strong></a>
-                    <a class="white" href=""><strong>Offers</strong></a>
-                    <a class="white" style="padding-right: 20px;"><strong>Gift Cards</strong></a>
+
+                <div class="input-box animation" style="--i:2; --j:23">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                    <i class='bx bxs-lock-alt'></i>
                 </div>
-            </div>
+                <button type="submit" class="btn animation" style="--i:3; --j:24">Login</button>
+                <div class="linkTxt animation" style="--i:5; --j:25">
+                    <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
+                </div>
+            </form>
         </div>
-    <main class="main">
-        <div class="mapdiv">
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3867495.5656358157!2d74.1275990766745!3d18.804786278273312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcfc41e9c9cd6f9%3A0x1b2f22924be04fb6!2sMaharashtra!5e0!3m2!1sen!2sin!4v1724676872098!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="info-text login">
+            <h2 class="animation" style="--i:0; --j:20">Welcome Back!</h2>
+            <p class="animation" style="--i:1; --j:21">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti,rem?</p>
         </div>
-        <br>
-        <div class="addBar">
-            <div style="text-align: center;">
-                <h1>Recommemded Sites</h1>
-            </div>
-            <div style="display: grid; align-items: center;">
-                <h3><a style="color: #ffbd59; text-decoration: none;" href="">See All ></a></h3>
-            </div>
+
+
+
+
+
+
+
+        <div class="form-box register">
+
+            <h2 class="title animation" style="--i:17; --j:0">Sign Up</h2>
+
+            <form action="#">
+
+                <div class="input-box animation" style="--i:18; --j:1">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+
+                <div class="input-box animation" style="--i:19; --j:2">
+                    <input type="email" required>
+                    <label for="">Email</label>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+
+                <div class="input-box animation" style="--i:20; --j:3">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+
+                <button type="submit" class="btn animation" style="--i:21;--j:4">Sign Up</button>
+
+                <div class="linkTxt animation" style="--i:22; --j:5">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+
+            </form>
         </div>
-        <br>
-        <div class="sectiondiv">
-            <div class="section">
-                <a href="./Gateway_of_India.html"><img src="./Assets/image 1.png" alt=""></a><br><br>
-                <a class="black" href="./Gateway_of_India.html"><strong>Gateway of India</strong><br><small>Chhattrapati Shivaji Maharaj Terminus,<br>Mumbai.</small></a>
-            </div>
-            <div class="section">
-                <a href="./Ajanta_Caves.html"><img src="./Assets/image 2.png" alt=""></a><br><br>
-                <a class="black" href=""><strong>Elephanta Caves</strong><br><small>Gharapuri, Mumbai.</small></a>
-            </div>
-            <div class="section">
-                <img src="./Assets/image 3.png" alt=""><br><br>
-                <a class="black" href=""><strong>Siddhivinayak Temple</strong><br><small>Dadar, Mumbai.</small></a>
-            </div>
-            <div class="section">
-                <img src="./Assets/image 4.png" alt=""><br><br>
-                <a class="black" href=""><strong>Chhattrapati Shivaji Maharaj <br>Museum</strong><br><small>Chattrapati Shivaji Maharaj Terminus,<br>Mumbai.</small></a>
-            </div>
-            <div class="section">
-                <img src="./Assets/image 5.png" alt=""><br><br>
-                <a class="black" href=""><strong>Sanjay Gandhi National Park</strong><br><small>Borivali, Mumbai.</small></a>
-            </div>
-        </div><br>
-        <div class="animation">
-            <div class="container-img">
-            </div>
-        </div><br>
-    </main>
-    <footer class="footer">
-        <div class="parent">
+
+        <div class="info-text register">
+            <h2 class="animation" style="--i:17; --j:0;">Welcome Back!</h2>
+            <p class="animation" style="--i:18; --j:1;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti,rem?</p>
         </div>
-    </footer>
+
+    </div>
+
+    <!--Script.js-->
+    <script src="script.js"></script>
 </body>
-</html>
+
+</html> 
